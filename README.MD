@@ -10,7 +10,7 @@
 
 Thực hành ** Bảo Mật Thông Tin Nâng Cao** là môn học 100% Python, cung cấp các công cụ và kỹ thuật bảo mật thông tin, mã hóa dữ liệu và đảm bảo an toàn trong truyền tải và lưu trữ.
 
-## Ảnh Chụp Màn Hình
+## Ảnh mèo méo meo
 
 ![meo meo meo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx8w551dLxehCEzRL22CmC6IAIKO2I15GcPA&s)
 
