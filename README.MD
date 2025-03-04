@@ -1,4 +1,5 @@
-# Bao Mật Thông Tin Nâng Cao
+# Bảo Mật Thông Tin Nâng Cao
+**Nguyễn Ngọc Tiệp**
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Pylint](https://img.shields.io/badge/code%20style-pylint-yellowgreen)
