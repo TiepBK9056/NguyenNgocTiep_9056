@@ -1,4 +1,4 @@
-from string import ascii_lowercase
+from string import ascii_uppercase
 
-ALPHABET = list(ascii_lowercase)
+ALPHABET = list(ascii_uppercase)
 
