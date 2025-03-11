@@ -15,7 +15,7 @@ while (1 == 1):
     print("**  0. Thoat.                                                 **")
     print("****************************************************************")
 
-    key = int(input("Nhap tuy chon"))
+    key = int(input("Nhap tuy chon : "))
     if (key == 1):
         print("\n1. Them sinh vien.")
         qlsv.nhapSinhVien()
@@ -58,7 +58,7 @@ while (1 == 1):
     elif (key == 6):
         if (qlsv.soLuongSinhVien() > 0):
             print("\n6. Sap xep sinh vien theo ten chuyen nganh.")
-            qlsv.sortByMajor()
+            qlsv.sortByName()
             qlsv.showSinhVien(qlsv.getListSinhVien())
         else:
             print("\nDanh sach sinh vien trong!")
