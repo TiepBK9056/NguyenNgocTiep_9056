@@ -16,12 +16,13 @@ class QuanLySinhVien:
         return self.listSinhVien.__len__()
     
     def nhapSinhVien(self):
-        svId = self.generateID()
+        svId = self.generateId()
         name = input("Nhap ten sinh vien: ")
         sex = input("Nhap gioi tinh sinh vien: ")
         major = input("Nhap chuyen nganh sinh vien: ")
         diemTB = float(input("Nhap diem cua sinh vien: "))
         sv = SinhVien(svId, name, sex, major, diemTB)
+        self.xepLoaiHocLuc(sv)
         self.listSinhVien.append(sv)
 
     def updateSinhVien(self, ID):
@@ -82,7 +83,7 @@ class QuanLySinhVien:
         if (listSV.__len__() > 0):
             for sv in listSV:
                 print("{:<8} {:<18} {:<8} {:<8} {:<8} {:<8}"
-                      .format(sv._id, sv._name, sv._sẽ, sv._major, sv._diemTB, sv._hocLuc))
+                      .format(sv._id, sv._name, sv._sex, sv._major, sv._diemTB, sv._hocLuc))
         print("\n")
 
     def getListSinhVien(self):
