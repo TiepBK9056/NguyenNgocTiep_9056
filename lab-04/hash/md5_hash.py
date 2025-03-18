@@ -43,12 +43,12 @@ def md5(message):
             b = b + left_rotate((a + f + 0x5A827999 + words[g]) & 0xFFFFFFFF, 3)
             a = temp
 
-            a = (a + a0) & 0xFFFFFFFF
-            b = (b + b0) & 0xFFFFFFFF
-            c = (c + c0) & 0xFFFFFFFF
-            d = (d + d0) & 0xFFFFFFFF
+        a = (a + a0) & 0xFFFFFFFF
+        b = (b + b0) & 0xFFFFFFFF
+        c = (c + c0) & 0xFFFFFFFF
+        d = (d + d0) & 0xFFFFFFFF
 
-        return '{:08x}{:08x}{:08x}{:08x}'.format(a, b, c, d)
+    return '{:08x}{:08x}{:08x}{:08x}'.format(a, b, c, d)
 
 input_string = input("Nhập chuỗi cần băm: ")
 md5_hash = md5(input_string.encode('utf-8'))
